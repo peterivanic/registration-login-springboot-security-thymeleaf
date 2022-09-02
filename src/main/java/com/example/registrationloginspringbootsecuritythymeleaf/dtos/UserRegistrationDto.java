@@ -1,6 +1,6 @@
 package com.example.registrationloginspringbootsecuritythymeleaf.dtos;
 
-public class UserRegistrationDto {
+public class UserRegistrationDto extends RequestDto{
     private String firstName;
     private String lastName;
     private String email;
